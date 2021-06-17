@@ -1,0 +1,2427 @@
+{
+    "Anime_List": [
+        {
+            "Anime Name": "Ahiru no Sora",
+            "Release Date": [
+                2019
+            ],
+            "Airing Status": "Complete",
+            "Watching Status": "Finished",
+            "Genres": [
+                "Shounen"
+            ],
+            "Seasons": "N/A",
+            "Episodes": [
+                50
+            ]
+        },
+        {
+            "Anime Name": "Akame ga Kill!",
+            "Release Date": [
+                2014
+            ],
+            "Airing Status": "Complete",
+            "Watching Status": "Finished",
+            "Genres": [
+                "Shounen"
+            ],
+            "Seasons": "N/A",
+            "Episodes": [
+                24
+            ]
+        },
+        {
+            "Anime Name": "Ao no Exorcist",
+            "Release Date": [
+                2011,
+                2017
+            ],
+            "Airing Status": "Complete",
+            "Watching Status": "Finished",
+            "Genres": [
+                "Shounen"
+            ],
+            "Seasons": 2,
+            "Episodes": [
+                26,
+                12
+            ]
+        },
+        {
+            "Anime Name": "Assassination Classroom",
+            "Release Date": [
+                2015,
+                2016
+            ],
+            "Airing Status": "Complete",
+            "Watching Status": "Finished",
+            "Genres": [
+                "Shounen"
+            ],
+            "Seasons": 2,
+            "Episodes": [
+                22,
+                25
+            ]
+        },
+        {
+            "Anime Name": "Attack on Titan",
+            "Release Date": [
+                2013,
+                2017,
+                2018,
+                2020
+            ],
+            "Airing Status": "Complete",
+            "Watching Status": "Finished",
+            "Genres": [
+                "Shounen"
+            ],
+            "Seasons": 4,
+            "Episodes": "[25,12,22,16]"
+        },
+        {
+            "Anime Name": "Avatar: The Last Airbender",
+            "Release Date": [
+                2005,
+                2006,
+                2007
+            ],
+            "Airing Status": "Complete",
+            "Watching Status": "Finished",
+            "Genres": [
+                "Fantasy"
+            ],
+            "Seasons": 3,
+            "Episodes": [
+                20,
+                20,
+                21
+            ]
+        },
+        {
+            "Anime Name": "Avatar: The Legends of Korra",
+            "Release Date": [
+                2012,
+                2013,
+                2014,
+                2014
+            ],
+            "Airing Status": "Complete",
+            "Watching Status": "Finished",
+            "Genres": [
+                "Fantasy"
+            ],
+            "Seasons": 4,
+            "Episodes": [
+                12,
+                14,
+                13,
+                13
+            ]
+        },
+        {
+            "Anime Name": "Baki",
+            "Release Date": [
+                2018,
+                2020
+            ],
+            "Airing Status": "Complete",
+            "Watching Status": "Finished",
+            "Genres": [
+                "Shounen"
+            ],
+            "Seasons": 2,
+            "Episodes": [
+                26,
+                13
+            ]
+        },
+        {
+            "Anime Name": "Beyblade: Metal Saga",
+            "Release Date": [
+                2009,
+                2011,
+                2012,
+                2012
+            ],
+            "Airing Status": "Complete",
+            "Watching Status": "Finished",
+            "Genres": [
+                "Sport"
+            ],
+            "Seasons": 4,
+            "Episodes": [
+                51,
+                51,
+                52,
+                45
+            ]
+        },
+        {
+            "Anime Name": "Black Clover",
+            "Release Date": [
+                2017
+            ],
+            "Airing Status": "Complete",
+            "Watching Status": "Finished",
+            "Genres": [
+                "Shounen"
+            ],
+            "Seasons": "N/A",
+            "Episodes": [
+                170
+            ]
+        },
+        {
+            "Anime Name": "Boruto: Next Generation Naruto",
+            "Release Date": [
+                2017
+            ],
+            "Airing Status": "Ongoing",
+            "Watching Status": "Watching",
+            "Genres": [
+                "Shounen"
+            ],
+            "Seasons": "N/A",
+            "Episodes": [
+                206
+            ]
+        },
+        {
+            "Anime Name": "Bungou Stray Dogs",
+            "Release Date": [
+                2016,
+                2016,
+                2019
+            ],
+            "Airing Status": "Complete",
+            "Watching Status": "Finished",
+            "Genres": [
+                "Seinen"
+            ],
+            "Seasons": 3,
+            "Episodes": [
+                12,
+                12,
+                12
+            ]
+        },
+        {
+            "Anime Name": "Case Closed",
+            "Release Date": [
+                1996
+            ],
+            "Airing Status": "Ongoing",
+            "Watching Status": "Watching",
+            "Genres": [
+                "Shounen"
+            ],
+            "Seasons": "N/A",
+            "Episodes": [
+                1008
+            ]
+        },
+        {
+            "Anime Name": "Castlevania",
+            "Release Date": [
+                2017,
+                2018,
+                2020,
+                2021
+            ],
+            "Airing Status": "Complete",
+            "Watching Status": "Finished",
+            "Genres": [
+                "Dark Fantasy"
+            ],
+            "Seasons": 4,
+            "Episodes": [
+                4,
+                8,
+                10,
+                10
+            ]
+        },
+        {
+            "Anime Name": "Charlotte",
+            "Release Date": [
+                2015
+            ],
+            "Airing Status": "Complete",
+            "Watching Status": "Finished",
+            "Genres": [
+                "Supernatural"
+            ],
+            "Seasons": "N/A",
+            "Episodes": [
+                13
+            ]
+        },
+        {
+            "Anime Name": "Classroom of the Elite",
+            "Release Date": [
+                2017
+            ],
+            "Airing Status": "Complete",
+            "Watching Status": "Finished",
+            "Genres": [
+                "Psychological Thriller"
+            ],
+            "Seasons": "N/A",
+            "Episodes": [
+                12
+            ]
+        },
+        {
+            "Anime Name": "Code Geass",
+            "Release Date": [
+                2008,
+                2008
+            ],
+            "Airing Status": "Complete",
+            "Watching Status": "Not Yet",
+            "Genres": [
+                "Psychological Thriller"
+            ],
+            "Seasons": 2,
+            "Episodes": [
+                25,
+                25
+            ]
+        },
+        {
+            "Anime Name": "Death Note",
+            "Release Date": [
+                2007
+            ],
+            "Airing Status": "Complete",
+            "Watching Status": "Finished",
+            "Genres": [
+                "Psychological Thriller"
+            ],
+            "Seasons": "N/A",
+            "Episodes": [
+                39
+            ]
+        },
+        {
+            "Anime Name": "Demon Slayer: Kimetsu no Yaiba",
+            "Release Date": [
+                2019
+            ],
+            "Airing Status": "Complete",
+            "Watching Status": "Finished",
+            "Genres": [
+                "Shounen"
+            ],
+            "Seasons": 1,
+            "Episodes": [
+                26
+            ]
+        },
+        {
+            "Anime Name": "Devilman Crybaby",
+            "Release Date": [
+                2018
+            ],
+            "Airing Status": "Complete",
+            "Watching Status": "Watching",
+            "Genres": [
+                "Dark Fantasy"
+            ],
+            "Seasons": "N/A",
+            "Episodes": [
+                10
+            ]
+        },
+        {
+            "Anime Name": "Dororo",
+            "Release Date": [
+                2019
+            ],
+            "Airing Status": "Complete",
+            "Watching Status": "Not Yet",
+            "Genres": [
+                "Dark Fantasy"
+            ],
+            "Seasons": "N/A",
+            "Episodes": [
+                24
+            ]
+        },
+        {
+            "Anime Name": "Dr. Stone",
+            "Release Date": [
+                2019,
+                2021
+            ],
+            "Airing Status": "Complete",
+            "Watching Status": "Finished",
+            "Genres": [
+                "Shounen"
+            ],
+            "Seasons": 2,
+            "Episodes": [
+                24,
+                11
+            ]
+        },
+        {
+            "Anime Name": "Dragon Ball ",
+            "Release Date": [
+                1986
+            ],
+            "Airing Status": "Complete",
+            "Watching Status": "Finished",
+            "Genres": [
+                "Fantasy"
+            ],
+            "Seasons": "N/A",
+            "Episodes": [
+                153
+            ]
+        },
+        {
+            "Anime Name": "Dragon Ball GT",
+            "Release Date": [
+                1996
+            ],
+            "Airing Status": "Complete",
+            "Watching Status": "Finished",
+            "Genres": [
+                "Fantasy"
+            ],
+            "Seasons": "N/A",
+            "Episodes": [
+                64
+            ]
+        },
+        {
+            "Anime Name": "Dragon Ball Super",
+            "Release Date": [
+                2017
+            ],
+            "Airing Status": "Complete",
+            "Watching Status": "Finished",
+            "Genres": [
+                "Fantasy"
+            ],
+            "Seasons": "N/A",
+            "Episodes": [
+                131
+            ]
+        },
+        {
+            "Anime Name": "Dragon Ball Z",
+            "Release Date": [
+                1989
+            ],
+            "Airing Status": "Complete",
+            "Watching Status": "Finished",
+            "Genres": [
+                "Fantasy"
+            ],
+            "Seasons": "N/A",
+            "Episodes": [
+                291
+            ]
+        },
+        {
+            "Anime Name": "Fairy Tail",
+            "Release Date": [
+                2009
+            ],
+            "Airing Status": "Complete",
+            "Watching Status": "Finished",
+            "Genres": [
+                "Shounen"
+            ],
+            "Seasons": "N/A",
+            "Episodes": [
+                328
+            ]
+        },
+        {
+            "Anime Name": "Fire Force",
+            "Release Date": [
+                2019,
+                2020
+            ],
+            "Airing Status": "Complete",
+            "Watching Status": "Finished",
+            "Genres": [
+                "Shounen"
+            ],
+            "Seasons": 2,
+            "Episodes": [
+                24,
+                24
+            ]
+        },
+        {
+            "Anime Name": "Haikyuu!!",
+            "Release Date": [
+                2014,
+                2016,
+                2016,
+                2020
+            ],
+            "Airing Status": "Complete",
+            "Watching Status": "Finished",
+            "Genres": [
+                "Sports"
+            ],
+            "Seasons": 5,
+            "Episodes": [
+                25,
+                25,
+                10,
+                25
+            ]
+        },
+        {
+            "Anime Name": "Hajime no Ippo",
+            "Release Date": [
+                2000,
+                2009,
+                2013
+            ],
+            "Airing Status": "Complete",
+            "Watching Status": "Finished S01",
+            "Genres": [
+                "Shounen"
+            ],
+            "Seasons": 3,
+            "Episodes": [
+                76,
+                26,
+                25
+            ]
+        },
+        {
+            "Anime Name": "High School DxD",
+            "Release Date": [
+                2012,
+                2013,
+                2015,
+                2018
+            ],
+            "Airing Status": "Complete",
+            "Watching Status": "Finished",
+            "Genres": [
+                "Supernatural"
+            ],
+            "Seasons": 3,
+            "Episodes": [
+                12,
+                12,
+                12,
+                13
+            ]
+        },
+        {
+            "Anime Name": "Hitori no Shita: The Outcast",
+            "Release Date": [
+                2016,
+                2018
+            ],
+            "Airing Status": "Complete",
+            "Watching Status": "Finished",
+            "Genres": [
+                "Shounen"
+            ],
+            "Seasons": 3,
+            "Episodes": [
+                12,
+                24
+            ]
+        },
+        {
+            "Anime Name": "Hunter X Hunter",
+            "Release Date": [
+                2011
+            ],
+            "Airing Status": "Complete",
+            "Watching Status": "Finished",
+            "Genres": [
+                "Shounen"
+            ],
+            "Seasons": "N/A",
+            "Episodes": [
+                148
+            ]
+        },
+        {
+            "Anime Name": "Inazuma Eleven",
+            "Release Date": [
+                2008
+            ],
+            "Airing Status": "Complete",
+            "Watching Status": "Finished",
+            "Genres": [
+                "Sports"
+            ],
+            "Seasons": "N/A",
+            "Episodes": [
+                127
+            ]
+        },
+        {
+            "Anime Name": "JoJo's Bizarre Adventures",
+            "Release Date": [
+                2012,
+                2014,
+                2016,
+                2018
+            ],
+            "Airing Status": "Complete",
+            "Watching Status": "Finished",
+            "Genres": [
+                "Shounen"
+            ],
+            "Seasons": 4,
+            "Episodes": [
+                26,
+                48,
+                39,
+                39
+            ]
+        },
+        {
+            "Anime Name": "K",
+            "Release Date": [
+                2012,
+                2014,
+                2015
+            ],
+            "Airing Status": "Complete",
+            "Watching Status": "Watching",
+            "Genres": [
+                "Shounen"
+            ],
+            "Seasons": 3,
+            "Episodes": [
+                12,
+                1,
+                13
+            ]
+        },
+        {
+            "Anime Name": "Kakegurui",
+            "Release Date": [
+                2017,
+                2019
+            ],
+            "Airing Status": "Complete",
+            "Watching Status": "Finished",
+            "Genres": [
+                "Gambling"
+            ],
+            "Seasons": 2,
+            "Episodes": [
+                12,
+                12
+            ]
+        },
+        {
+            "Anime Name": "Kakushigoto",
+            "Release Date": [
+                2020
+            ],
+            "Airing Status": "Complete",
+            "Watching Status": "Finished",
+            "Genres": [
+                "Shounen"
+            ],
+            "Seasons": 1,
+            "Episodes": [
+                12
+            ]
+        },
+        {
+            "Anime Name": "Kengan Ashura",
+            "Release Date": [
+                2019,
+                2019
+            ],
+            "Airing Status": "Complete",
+            "Watching Status": "Finished",
+            "Genres": [
+                "Martial Arts"
+            ],
+            "Seasons": 2,
+            "Episodes": [
+                12,
+                12
+            ]
+        },
+        {
+            "Anime Name": "Kuroko no Baseketball",
+            "Release Date": [
+                2012,
+                2013,
+                2015
+            ],
+            "Airing Status": "Complete",
+            "Watching Status": "Finished",
+            "Genres": [
+                "Shounen"
+            ],
+            "Seasons": 3,
+            "Episodes": [
+                25,
+                25,
+                25
+            ]
+        },
+        {
+            "Anime Name": "Levius",
+            "Release Date": [
+                2019
+            ],
+            "Airing Status": "Complete",
+            "Watching Status": "Finished",
+            "Genres": [
+                "Martial Arts"
+            ],
+            "Seasons": 1,
+            "Episodes": [
+                12
+            ]
+        },
+        {
+            "Anime Name": "Magi",
+            "Release Date": [
+                2012,
+                2013
+            ],
+            "Airing Status": "Complete",
+            "Watching Status": "Finished",
+            "Genres": [
+                "Shounen"
+            ],
+            "Seasons": 2,
+            "Episodes": [
+                25,
+                25
+            ]
+        },
+        {
+            "Anime Name": "Magmell",
+            "Release Date": [
+                2019
+            ],
+            "Airing Status": "Complete",
+            "Watching Status": "Finished",
+            "Genres": [
+                "Shounen"
+            ],
+            "Seasons": 1,
+            "Episodes": [
+                13
+            ]
+        },
+        {
+            "Anime Name": "Mob Psycho 100",
+            "Release Date": [
+                2016,
+                2019
+            ],
+            "Airing Status": "Complete",
+            "Watching Status": "Finished",
+            "Genres": [
+                "Shounen"
+            ],
+            "Seasons": 2,
+            "Episodes": [
+                12,
+                13
+            ]
+        },
+        {
+            "Anime Name": "My Hero Academia",
+            "Release Date": [
+                2016,
+                2017,
+                2018,
+                2019,
+                2021
+            ],
+            "Airing Status": "Complete",
+            "Watching Status": "Finished",
+            "Genres": [
+                "Shounen"
+            ],
+            "Seasons": 5,
+            "Episodes": [
+                13,
+                25,
+                25,
+                25,
+                25
+            ]
+        },
+        {
+            "Anime Name": "Naruto",
+            "Release Date": [
+                2003
+            ],
+            "Airing Status": "Complete",
+            "Watching Status": "Finished",
+            "Genres": [
+                "Shounen"
+            ],
+            "Seasons": "N/A",
+            "Episodes": [
+                220
+            ]
+        },
+        {
+            "Anime Name": "Naruto Shippuden",
+            "Release Date": [
+                2007
+            ],
+            "Airing Status": "Complete",
+            "Watching Status": "Finished",
+            "Genres": [
+                "Shounen"
+            ],
+            "Seasons": "N/A",
+            "Episodes": [
+                500
+            ]
+        },
+        {
+            "Anime Name": "One Piece",
+            "Release Date": [
+                1999
+            ],
+            "Airing Status": "Ongoing",
+            "Watching Status": "Watching",
+            "Genres": [
+                "Shounen"
+            ],
+            "Seasons": "N/A",
+            "Episodes": [
+                979
+            ]
+        },
+        {
+            "Anime Name": "One Punch Man",
+            "Release Date": [
+                2015,
+                2019
+            ],
+            "Airing Status": "Complete",
+            "Watching Status": "Finished",
+            "Genres": [
+                "Superhero"
+            ],
+            "Seasons": 2,
+            "Episodes": [
+                12,
+                12
+            ]
+        },
+        {
+            "Anime Name": "Parasyte: The Maxim",
+            "Release Date": [
+                2015
+            ],
+            "Airing Status": "Complete",
+            "Watching Status": "Finished",
+            "Genres": [
+                "Horror Thriller"
+            ],
+            "Seasons": "N/A",
+            "Episodes": [
+                24
+            ]
+        },
+        {
+            "Anime Name": "Radiant",
+            "Release Date": [
+                2018,
+                2019
+            ],
+            "Airing Status": "Complete",
+            "Watching Status": "Finished",
+            "Genres": [
+                "Shounen"
+            ],
+            "Seasons": 2,
+            "Episodes": [
+                21,
+                21
+            ]
+        },
+        {
+            "Anime Name": "Re:ZERO -Starting Life in Another World",
+            "Release Date": [
+                2016,
+                2020
+            ],
+            "Airing Status": "Complete",
+            "Watching Status": "Watching",
+            "Genres": [
+                "Shounen"
+            ],
+            "Seasons": 2,
+            "Episodes": [
+                25,
+                25
+            ]
+        },
+        {
+            "Anime Name": "Samurai 7",
+            "Release Date": [
+                2006
+            ],
+            "Airing Status": "Complete",
+            "Watching Status": "Finished",
+            "Genres": [
+                "Adventure"
+            ],
+            "Seasons": "N/A",
+            "Episodes": [
+                26
+            ]
+        },
+        {
+            "Anime Name": "Steins;Gate",
+            "Release Date": [
+                2011,
+                2018
+            ],
+            "Airing Status": "Complete",
+            "Watching Status": "Not Yet",
+            "Genres": [
+                "Shounen"
+            ],
+            "Seasons": 2,
+            "Episodes": [
+                25,
+                23
+            ]
+        },
+        {
+            "Anime Name": "Sword Art Online",
+            "Release Date": [
+                2012,
+                2014,
+                2018
+            ],
+            "Airing Status": "Complete",
+            "Watching Status": "Finished S01-02",
+            "Genres": [
+                "Shounen"
+            ],
+            "Seasons": 3,
+            "Episodes": [
+                25,
+                24,
+                47
+            ]
+        },
+        {
+            "Anime Name": "Taboo Tattoo",
+            "Release Date": [
+                2016
+            ],
+            "Airing Status": "Complete",
+            "Watching Status": "Finished",
+            "Genres": [
+                "Dark Fantasy"
+            ],
+            "Seasons": "N/A",
+            "Episodes": [
+                12
+            ]
+        },
+        {
+            "Anime Name": "The Disastrous Life of Saiki K",
+            "Release Date": [
+                2016,
+                2018,
+                2019
+            ],
+            "Airing Status": "Complete",
+            "Watching Status": "Finished",
+            "Genres": [
+                "Supernatural"
+            ],
+            "Seasons": 3,
+            "Episodes": [
+                24,
+                24,
+                6
+            ]
+        },
+        {
+            "Anime Name": "The God Of High School",
+            "Release Date": [
+                2020
+            ],
+            "Airing Status": "Complete",
+            "Watching Status": "Finished",
+            "Genres": [
+                "Shounen"
+            ],
+            "Seasons": 1,
+            "Episodes": [
+                13
+            ]
+        },
+        {
+            "Anime Name": "The Millionaire Detective - Balance UNLIMITED",
+            "Release Date": [
+                2020
+            ],
+            "Airing Status": "Complete",
+            "Watching Status": "Finished",
+            "Genres": [
+                "Mystery"
+            ],
+            "Seasons": "N/A",
+            "Episodes": [
+                13
+            ]
+        },
+        {
+            "Anime Name": "The Promised Neverland",
+            "Release Date": [
+                2019,
+                2021
+            ],
+            "Airing Status": "Complete",
+            "Watching Status": "Finished",
+            "Genres": [
+                "Dark Fantasy"
+            ],
+            "Seasons": 2,
+            "Episodes": [
+                12,
+                11
+            ]
+        },
+        {
+            "Anime Name": "The Seven Deadly Sins",
+            "Release Date": [
+                2014,
+                2016,
+                2018,
+                2019,
+                2021
+            ],
+            "Airing Status": "Complete",
+            "Watching Status": "Watching",
+            "Genres": [
+                "Shounen"
+            ],
+            "Seasons": 5,
+            "Episodes": [
+                24,
+                4,
+                24,
+                24,
+                24
+            ]
+        },
+        {
+            "Anime Name": "Tokyo Ghoul",
+            "Release Date": [
+                2017,
+                2017,
+                2018,
+                2018
+            ],
+            "Airing Status": "Complete",
+            "Watching Status": "Finished",
+            "Genres": [
+                "Dark Fantasy"
+            ],
+            "Seasons": 4,
+            "Episodes": [
+                12,
+                12,
+                12,
+                12
+            ]
+        },
+        {
+            "Anime Name": "Vinland Saga",
+            "Release Date": [
+                2019
+            ],
+            "Airing Status": "Complete",
+            "Watching Status": "Not Yet",
+            "Genres": [
+                "Adventure"
+            ],
+            "Seasons": "N/A",
+            "Episodes": [
+                24
+            ]
+        }
+    ],
+    "Download_Anime_List": [
+        {
+            "Provider": "[SubsPlease]",
+            "Anime_Name": "One Piece",
+            "Season": "N/A",
+            "EP": "978",
+            "Quality": "(1080p)",
+            "Audio": "(SUB)"
+        },
+        {
+            "Provider": "[Golumpa]",
+            "Anime_Name": "That Time I Got Reincarnated as a Slime",
+            "Season": "S2",
+            "EP": "11",
+            "Quality": "[FuniDub 720p x264 AAC]",
+            "Audio": "(DUB)"
+        },
+        {
+            "Provider": "[Golumpa]",
+            "Anime_Name": "Black Clover",
+            "Season": "N/A",
+            "EP": "155",
+            "Quality": "[FuniDub 720p x264 AAC]",
+            "Audio": "(DUB)"
+        },
+        {
+            "Provider": "[SubsPlease]",
+            "Anime_Name": "Boruto - Naruto Next Generations",
+            "Season": "N/A",
+            "EP": "195",
+            "Quality": "(1080p)",
+            "Audio": "(SUB)"
+        },
+        {
+            "Provider": "[Golumpa]",
+            "Anime_Name": "Bungo Stray Dogs WAN!",
+            "Season": "N/A",
+            "EP": "09",
+            "Quality": "[CR-Dub 720p x264 AAC]",
+            "Audio": "(DUB)"
+        },
+        {
+            "Provider": "[SubsPlease]",
+            "Anime_Name": "Boku No Hero Academia",
+            "Season": "N/A",
+            "EP": "100",
+            "Quality": "(1080p)",
+            "Audio": "(SUB)"
+        },
+        {
+            "Provider": "[Golumpa]",
+            "Anime_Name": "My Hero Academia",
+            "Season": "S5",
+            "EP": "10",
+            "Quality": "[FuniDub 720p x264 AAC]",
+            "Audio": "(DUB)"
+        },
+        {
+            "Provider": "[SubsPlease]",
+            "Anime_Name": "Mairimashita! Iruma-kun",
+            "Season": "S2",
+            "EP": "09",
+            "Quality": "(1080p)",
+            "Audio": "(SUB)"
+        },
+        {
+            "Provider": "[KaiDubs]",
+            "Anime_Name": "The Promised Neverland",
+            "Season": "S2",
+            "EP": "10",
+            "Quality": "[720p]",
+            "Audio": "(DUB)"
+        },
+        {
+            "Provider": "[Golumpa]",
+            "Anime_Name": "Welcome to Demon School! Iruma-kun",
+            "Season": "S2",
+            "EP": "01",
+            "Quality": "[CR-Dub 720p x264 AAC]",
+            "Audio": "(DUB)"
+        }
+    ],
+    "Anime_Database": [
+        {
+            "Anime Name": "Ahiru no Sora",
+            "Seasons": [
+                {
+                    "Episodes": "50",
+                    "Release Date": "2019",
+                    "Airing Status": "Complete",
+                    "Watching Status": "Finished"
+                }
+            ],
+            "Genres": [
+                "Shounen"
+            ]
+        },
+        {
+            "Anime Name": "Akame ga Kill!",
+            "Seasons": [
+                {
+                    "Episodes": "24",
+                    "Release Date": "2014",
+                    "Airing Status": "Complete",
+                    "Watching Status": "Finished"
+                }
+            ],
+            "Genres": [
+                "Shounen"
+            ]
+        },
+        {
+            "Anime Name": "Ao no Exorcist",
+            "Seasons": [
+                {
+                    "Episodes": "26",
+                    "Release Date": "2011",
+                    "Airing Status": "Complete",
+                    "Watching Status": "Finished"
+                },
+                {
+                    "Episodes": "12",
+                    "Release Date": "2017",
+                    "Airing Status": "Complete",
+                    "Watching Status": "Finished"
+                }
+            ],
+            "Genres": [
+                "Shounen"
+            ]
+        },
+        {
+            "Anime Name": "Assassination Classroom",
+            "Seasons": [
+                {
+                    "Episodes": "22",
+                    "Release Date": "2015",
+                    "Airing Status": "Complete",
+                    "Watching Status": "Finished"
+                },
+                {
+                    "Episodes": "25",
+                    "Release Date": "2016",
+                    "Airing Status": "Complete",
+                    "Watching Status": "Finished"
+                }
+            ],
+            "Genres": [
+                "Shounen"
+            ]
+        },
+        {
+            "Anime Name": "Attack on Titan",
+            "Seasons": [
+                {
+                    "Episodes": "25",
+                    "Release Date": "2013",
+                    "Airing Status": "Complete",
+                    "Watching Status": "Finished"
+                },
+                {
+                    "Episodes": "12",
+                    "Release Date": "2017",
+                    "Airing Status": "Complete",
+                    "Watching Status": "Finished"
+                },
+                {
+                    "Episodes": "22",
+                    "Release Date": "2018",
+                    "Airing Status": "Complete",
+                    "Watching Status": "Finished"
+                },
+                {
+                    "Episodes": "16",
+                    "Release Date": "2020",
+                    "Airing Status": "Complete",
+                    "Watching Status": "Finished"
+                }
+            ],
+            "Genres": [
+                "Shounen"
+            ]
+        },
+        {
+            "Anime Name": "Avatar: The Last Airbender",
+            "Seasons": [
+                {
+                    "Episodes": "20",
+                    "Release Date": "2005",
+                    "Airing Status": "Complete",
+                    "Watching Status": "Finished"
+                },
+                {
+                    "Episodes": "20",
+                    "Release Date": "2006",
+                    "Airing Status": "Complete",
+                    "Watching Status": "Finished"
+                },
+                {
+                    "Episodes": "21",
+                    "Release Date": "2007",
+                    "Airing Status": "Complete",
+                    "Watching Status": "Finished"
+                }
+            ],
+            "Genres": [
+                "Fantasy"
+            ]
+        },
+        {
+            "Anime Name": "Avatar: The Legends of Korra",
+            "Seasons": [
+                {
+                    "Episodes": "12",
+                    "Release Date": "2012",
+                    "Airing Status": "Complete",
+                    "Watching Status": "Finished"
+                },
+                {
+                    "Episodes": "14",
+                    "Release Date": "2013",
+                    "Airing Status": "Complete",
+                    "Watching Status": "Finished"
+                },
+                {
+                    "Episodes": "13",
+                    "Release Date": "2014",
+                    "Airing Status": "Complete",
+                    "Watching Status": "Finished"
+                },
+                {
+                    "Episodes": "13",
+                    "Release Date": "2014",
+                    "Airing Status": "Complete",
+                    "Watching Status": "Finished"
+                }
+            ],
+            "Genres": [
+                "Fantasy"
+            ]
+        },
+        {
+            "Anime Name": "Baki",
+            "Seasons": [
+                {
+                    "Episodes": "26",
+                    "Release Date": "2018",
+                    "Airing Status": "Complete",
+                    "Watching Status": "Finished"
+                },
+                {
+                    "Episodes": "13",
+                    "Release Date": "2020",
+                    "Airing Status": "Complete",
+                    "Watching Status": "Finished"
+                }
+            ],
+            "Genres": [
+                "Shounen"
+            ]
+        },
+        {
+            "Anime Name": "Beyblade: Metal Saga",
+            "Seasons": [
+                {
+                    "Episodes": "51",
+                    "Release Date": "2009",
+                    "Airing Status": "Complete",
+                    "Watching Status": "Finished"
+                },
+                {
+                    "Episodes": "51",
+                    "Release Date": "2011",
+                    "Airing Status": "Complete",
+                    "Watching Status": "Finished"
+                },
+                {
+                    "Episodes": "52",
+                    "Release Date": "2012",
+                    "Airing Status": "Complete",
+                    "Watching Status": "Finished"
+                },
+                {
+                    "Episodes": "45",
+                    "Release Date": "2012",
+                    "Airing Status": "Complete",
+                    "Watching Status": "Finished"
+                }
+            ],
+            "Genres": [
+                "Sport"
+            ]
+        },
+        {
+            "Anime Name": "Black Clover",
+            "Seasons": [
+                {
+                    "Episodes": "170",
+                    "Release Date": "2017",
+                    "Airing Status": "Complete",
+                    "Watching Status": "Finished"
+                }
+            ],
+            "Genres": [
+                "Shounen"
+            ]
+        },
+        {
+            "Anime Name": "Boruto: Next Generation Naruto",
+            "Seasons": [
+                {
+                    "Episodes": "206",
+                    "Release Date": "2017",
+                    "Airing Status": "Complete",
+                    "Watching Status": "Finished"
+                }
+            ],
+            "Genres": [
+                "Shounen"
+            ]
+        },
+        {
+            "Anime Name": "Bungou Stray Dogs",
+            "Seasons": [
+                {
+                    "Episodes": "12",
+                    "Release Date": "2016",
+                    "Airing Status": "Complete",
+                    "Watching Status": "Finished"
+                },
+                {
+                    "Episodes": "12",
+                    "Release Date": "2016",
+                    "Airing Status": "Complete",
+                    "Watching Status": "Finished"
+                },
+                {
+                    "Episodes": "12",
+                    "Release Date": "2019",
+                    "Airing Status": "Complete",
+                    "Watching Status": "Finished"
+                }
+            ],
+            "Genres": [
+                "Seinen"
+            ]
+        },
+        {
+            "Anime Name": "Case Closed",
+            "Seasons": [
+                {
+                    "Episodes": "1008",
+                    "Release Date": "1996",
+                    "Airing Status": "Ongoing",
+                    "Watching Status": "Watching"
+                }
+            ],
+            "Genres": [
+                "Shounen"
+            ]
+        },
+        {
+            "Anime Name": "Castlevania",
+            "Seasons": [
+                {
+                    "Episodes": "04",
+                    "Release Date": "2017",
+                    "Airing Status": "Complete",
+                    "Watching Status": "Finished"
+                },
+                {
+                    "Episodes": "08",
+                    "Release Date": "2018",
+                    "Airing Status": "Complete",
+                    "Watching Status": "Finished"
+                },
+                {
+                    "Episodes": "10",
+                    "Release Date": "2020",
+                    "Airing Status": "Complete",
+                    "Watching Status": "Finished"
+                },
+                {
+                    "Episodes": "10",
+                    "Release Date": "2021",
+                    "Airing Status": "Complete",
+                    "Watching Status": "Watching"
+                }
+            ],
+            "Genres": [
+                "Dark Fantasy"
+            ]
+        },
+        {
+            "Anime Name": "Charlotte",
+            "Seasons": [
+                {
+                    "Episodes": "13",
+                    "Release Date": "2015",
+                    "Airing Status": "Complete",
+                    "Watching Status": "Finished"
+                }
+            ],
+            "Genres": [
+                "Supernatural"
+            ]
+        },
+        {
+            "Anime Name": "Classroom of the Elite",
+            "Seasons": [
+                {
+                    "Episodes": "12",
+                    "Release Date": "2017",
+                    "Airing Status": "Complete",
+                    "Watching Status": "Finished"
+                }
+            ],
+            "Genres": [
+                "Psychological Thriller"
+            ]
+        },
+        {
+            "Anime Name": "Code Geass",
+            "Seasons": [
+                {
+                    "Episodes": "25",
+                    "Release Date": "2008",
+                    "Airing Status": "Complete",
+                    "Watching Status": "Finished"
+                },
+                {
+                    "Episodes": "25",
+                    "Release Date": "2008",
+                    "Airing Status": "Complete",
+                    "Watching Status": "Not Yet"
+                }
+            ],
+            "Genres": [
+                "Psychological Thriller"
+            ]
+        },
+        {
+            "Anime Name": "Death Note",
+            "Seasons": [
+                {
+                    "Episodes": "39",
+                    "Release Date": "2007",
+                    "Airing Status": "Complete",
+                    "Watching Status": "Finished"
+                }
+            ],
+            "Genres": [
+                "Psychological Thriller"
+            ]
+        },
+        {
+            "Anime Name": "Demon Slayer: Kimetsu no Yaiba",
+            "Seasons": [
+                {
+                    "Episodes": "26",
+                    "Release Date": "2019",
+                    "Airing Status": "Complete",
+                    "Watching Status": "Finished"
+                }
+            ],
+            "Genres": [
+                "Shounen"
+            ]
+        },
+        {
+            "Anime Name": "Devilman Crybaby",
+            "Seasons": [
+                {
+                    "Episodes": "10",
+                    "Release Date": "2018",
+                    "Airing Status": "Complete",
+                    "Watching Status": "Watching"
+                }
+            ],
+            "Genres": [
+                "Dark Fantasy"
+            ]
+        },
+        {
+            "Anime Name": "Dororo",
+            "Seasons": [
+                {
+                    "Episodes": "24",
+                    "Release Date": "2019",
+                    "Airing Status": "Complete",
+                    "Watching Status": "Not Yet"
+                }
+            ],
+            "Genres": [
+                "Dark Fantasy"
+            ]
+        },
+        {
+            "Anime Name": "Dr. Stone",
+            "Seasons": [
+                {
+                    "Episodes": "24",
+                    "Release Date": "2019",
+                    "Airing Status": "Complete",
+                    "Watching Status": "Finished"
+                },
+                {
+                    "Episodes": "11",
+                    "Release Date": "2021",
+                    "Airing Status": "Complete",
+                    "Watching Status": "Finished"
+                }
+            ],
+            "Genres": [
+                "Shounen"
+            ]
+        },
+        {
+            "Anime Name": "Dragon Ball ",
+            "Seasons": [
+                {
+                    "Episodes": "153",
+                    "Release Date": "1986",
+                    "Airing Status": "Complete",
+                    "Watching Status": "Finished"
+                }
+            ],
+            "Genres": [
+                "Fantasy"
+            ]
+        },
+        {
+            "Anime Name": "Dragon Ball GT",
+            "Seasons": [
+                {
+                    "Episodes": "64",
+                    "Release Date": "1996",
+                    "Airing Status": "Complete",
+                    "Watching Status": "Finished"
+                }
+            ],
+            "Genres": [
+                "Fantasy"
+            ]
+        },
+        {
+            "Anime Name": "Dragon Ball Super",
+            "Seasons": [
+                {
+                    "Episodes": "131",
+                    "Release Date": "2017",
+                    "Airing Status": "Complete",
+                    "Watching Status": "Finished"
+                }
+            ],
+            "Genres": [
+                "Fantasy"
+            ]
+        },
+        {
+            "Anime Name": "Dragon Ball Z",
+            "Seasons": [
+                {
+                    "Episodes": "291",
+                    "Release Date": "1989",
+                    "Airing Status": "Complete",
+                    "Watching Status": "Finished"
+                }
+            ],
+            "Genres": [
+                "Fantasy"
+            ]
+        },
+        {
+            "Anime Name": "Fairy Tail",
+            "Seasons": [
+                {
+                    "Episodes": "328",
+                    "Release Date": "2009",
+                    "Airing Status": "Complete",
+                    "Watching Status": "Finished"
+                }
+            ],
+            "Genres": [
+                "Shounen"
+            ]
+        },
+        {
+            "Anime Name": "Fire Force",
+            "Seasons": [
+                {
+                    "Episodes": "24",
+                    "Release Date": "2019",
+                    "Airing Status": "Complete",
+                    "Watching Status": "Finished"
+                },
+                {
+                    "Episodes": "24",
+                    "Release Date": "2020",
+                    "Airing Status": "Complete",
+                    "Watching Status": "Finished"
+                }
+            ],
+            "Genres": [
+                "Shounen"
+            ]
+        },
+        {
+            "Anime Name": "Haikyuu!!",
+            "Seasons": [
+                {
+                    "Episodes": "25",
+                    "Release Date": "2014",
+                    "Airing Status": "Complete",
+                    "Watching Status": "Finished"
+                },
+                {
+                    "Episodes": "25",
+                    "Release Date": "2016",
+                    "Airing Status": "Complete",
+                    "Watching Status": "Finished"
+                },
+                {
+                    "Episodes": "10",
+                    "Release Date": "2016",
+                    "Airing Status": "Complete",
+                    "Watching Status": "Finished"
+                },
+                {
+                    "Episodes": "25",
+                    "Release Date": "2020",
+                    "Airing Status": "Complete",
+                    "Watching Status": "Finished"
+                }
+            ],
+            "Genres": [
+                "Sports"
+            ]
+        },
+        {
+            "Anime Name": "Hajime no Ippo",
+            "Seasons": [
+                {
+                    "Episodes": "76",
+                    "Release Date": "2000",
+                    "Airing Status": "Complete",
+                    "Watching Status": "Finished"
+                },
+                {
+                    "Episodes": "26",
+                    "Release Date": "2009",
+                    "Airing Status": "Complete",
+                    "Watching Status": "Finished"
+                },
+                {
+                    "Episodes": "25",
+                    "Release Date": "2013",
+                    "Airing Status": "Complete",
+                    "Watching Status": "Finished"
+                }
+            ],
+            "Genres": [
+                "Shounen"
+            ]
+        },
+        {
+            "Anime Name": "High School DxD",
+            "Seasons": [
+                {
+                    "Episodes": "12",
+                    "Release Date": "2012",
+                    "Airing Status": "Complete",
+                    "Watching Status": "Finished"
+                },
+                {
+                    "Episodes": "12",
+                    "Release Date": "2013",
+                    "Airing Status": "Complete",
+                    "Watching Status": "Finished"
+                },
+                {
+                    "Episodes": "12",
+                    "Release Date": "2015",
+                    "Airing Status": "Complete",
+                    "Watching Status": "Finished"
+                },
+                {
+                    "Episodes": "13",
+                    "Release Date": "2018",
+                    "Airing Status": "Complete",
+                    "Watching Status": "Finished"
+                }
+            ],
+            "Genres": [
+                "Supernatural"
+            ]
+        },
+        {
+            "Anime Name": "Hitori no Shita: The Outcast",
+            "Seasons": [
+                {
+                    "Episodes": "12",
+                    "Release Date": "2016",
+                    "Airing Status": "Complete",
+                    "Watching Status": "Finished"
+                },
+                {
+                    "Episodes": "24",
+                    "Release Date": "2018",
+                    "Airing Status": "Complete",
+                    "Watching Status": "Finished"
+                }
+            ],
+            "Genres": [
+                "Shounen"
+            ]
+        },
+        {
+            "Anime Name": "Hunter X Hunter",
+            "Seasons": [
+                {
+                    "Episodes": "148",
+                    "Release Date": "2011",
+                    "Airing Status": "Complete",
+                    "Watching Status": "Finished"
+                }
+            ],
+            "Genres": [
+                "Shounen"
+            ]
+        },
+        {
+            "Anime Name": "Inazuma Eleven",
+            "Seasons": [
+                {
+                    "Episodes": "127",
+                    "Release Date": "2008",
+                    "Airing Status": "Complete",
+                    "Watching Status": "Finished"
+                }
+            ],
+            "Genres": [
+                "Sports"
+            ]
+        },
+        {
+            "Anime Name": "JoJo's Bizarre Adventures",
+            "Seasons": [
+                {
+                    "Episodes": "26",
+                    "Release Date": "2012",
+                    "Airing Status": "Complete",
+                    "Watching Status": "Finished"
+                },
+                {
+                    "Episodes": "48",
+                    "Release Date": "2014",
+                    "Airing Status": "Complete",
+                    "Watching Status": "Finished"
+                },
+                {
+                    "Episodes": "39",
+                    "Release Date": "2016",
+                    "Airing Status": "Complete",
+                    "Watching Status": "Finished"
+                },
+                {
+                    "Episodes": "39",
+                    "Release Date": "2018",
+                    "Airing Status": "Complete",
+                    "Watching Status": "Finished"
+                }
+            ],
+            "Genres": [
+                "Shounen"
+            ]
+        },
+        {
+            "Anime Name": "K",
+            "Seasons": [
+                {
+                    "Episodes": "12",
+                    "Release Date": "2012",
+                    "Airing Status": "Complete",
+                    "Watching Status": "Finished"
+                },
+                {
+                    "Episodes": "1",
+                    "Release Date": "2014",
+                    "Airing Status": "Complete",
+                    "Watching Status": "Not Yet"
+                },
+                {
+                    "Episodes": "13",
+                    "Release Date": "2015",
+                    "Airing Status": "Complete",
+                    "Watching Status": "Not Yet"
+                }
+            ],
+            "Genres": [
+                "Shounen"
+            ]
+        },
+        {
+            "Anime Name": "Kakegurui",
+            "Seasons": [
+                {
+                    "Episodes": "12",
+                    "Release Date": "2017",
+                    "Airing Status": "Complete",
+                    "Watching Status": "Finished"
+                },
+                {
+                    "Episodes": "12",
+                    "Release Date": "2019",
+                    "Airing Status": "Complete",
+                    "Watching Status": "Finished"
+                }
+            ],
+            "Genres": [
+                "Gambling"
+            ]
+        },
+        {
+            "Anime Name": "Kakushigoto",
+            "Seasons": [
+                {
+                    "Episodes": "12",
+                    "Release Date": "2020",
+                    "Airing Status": "Complete",
+                    "Watching Status": "Finished"
+                }
+            ],
+            "Genres": [
+                "Shounen"
+            ]
+        },
+        {
+            "Anime Name": "Kengan Ashura",
+            "Seasons": [
+                {
+                    "Episodes": "12",
+                    "Release Date": "2019",
+                    "Airing Status": "Complete",
+                    "Watching Status": "Finished"
+                },
+                {
+                    "Episodes": "12",
+                    "Release Date": "2019",
+                    "Airing Status": "Complete",
+                    "Watching Status": "Finished"
+                }
+            ],
+            "Genres": [
+                "Martial Arts"
+            ]
+        },
+        {
+            "Anime Name": "Kuroko no Baseketball",
+            "Seasons": [
+                {
+                    "Episodes": "25",
+                    "Release Date": "2012",
+                    "Airing Status": "Complete",
+                    "Watching Status": "Finished"
+                },
+                {
+                    "Episodes": "25",
+                    "Release Date": "2013",
+                    "Airing Status": "Complete",
+                    "Watching Status": "Finished"
+                },
+                {
+                    "Episodes": "25",
+                    "Release Date": "2015",
+                    "Airing Status": "Complete",
+                    "Watching Status": "Finished"
+                }
+            ],
+            "Genres": [
+                "Shounen"
+            ]
+        },
+        {
+            "Anime Name": "Levius",
+            "Seasons": [
+                {
+                    "Episodes": "12",
+                    "Release Date": "2019",
+                    "Airing Status": "Complete",
+                    "Watching Status": "Finished"
+                }
+            ],
+            "Genres": [
+                "Martial Arts"
+            ]
+        },
+        {
+            "Anime Name": "Magi",
+            "Seasons": [
+                {
+                    "Episodes": "25",
+                    "Release Date": "2012",
+                    "Airing Status": "Complete",
+                    "Watching Status": "Finished"
+                },
+                {
+                    "Episodes": "25",
+                    "Release Date": "2013",
+                    "Airing Status": "Complete",
+                    "Watching Status": "Finished"
+                }
+            ],
+            "Genres": [
+                "Shounen"
+            ]
+        },
+        {
+            "Anime Name": "Magmell",
+            "Seasons": [
+                {
+                    "Episodes": "13",
+                    "Release Date": "2019",
+                    "Airing Status": "Complete",
+                    "Watching Status": "Finished"
+                }
+            ],
+            "Genres": [
+                "Shounen"
+            ]
+        },
+        {
+            "Anime Name": "Mob Psycho 100",
+            "Seasons": [
+                {
+                    "Episodes": "12",
+                    "Release Date": "2016",
+                    "Airing Status": "Complete",
+                    "Watching Status": "Finished"
+                },
+                {
+                    "Episodes": "13",
+                    "Release Date": "2019",
+                    "Airing Status": "Complete",
+                    "Watching Status": "Finished"
+                }
+            ],
+            "Genres": [
+                "Shounen"
+            ]
+        },
+        {
+            "Anime Name": "My Hero Academia",
+            "Seasons": [
+                {
+                    "Episodes": "13",
+                    "Release Date": "2016",
+                    "Airing Status": "Complete",
+                    "Watching Status": "Finished"
+                },
+                {
+                    "Episodes": "25",
+                    "Release Date": "2017",
+                    "Airing Status": "Complete",
+                    "Watching Status": "Finished"
+                },
+                {
+                    "Episodes": "25",
+                    "Release Date": "2018",
+                    "Airing Status": "Complete",
+                    "Watching Status": "Finished"
+                },
+                {
+                    "Episodes": "25",
+                    "Release Date": "2019",
+                    "Airing Status": "Complete",
+                    "Watching Status": "Finished"
+                },
+                {
+                    "Episodes": "25",
+                    "Release Date": "2021",
+                    "Airing Status": "Ongoing",
+                    "Watching Status": "Watching"
+                }
+            ],
+            "Genres": [
+                "Shounen"
+            ]
+        },
+        {
+            "Anime Name": "Naruto",
+            "Seasons": [
+                {
+                    "Episodes": "220",
+                    "Release Date": "2003",
+                    "Airing Status": "Complete",
+                    "Watching Status": "Finished"
+                }
+            ],
+            "Genres": [
+                "Shounen"
+            ]
+        },
+        {
+            "Anime Name": "Naruto Shippuden",
+            "Seasons": [
+                {
+                    "Episodes": "500",
+                    "Release Date": "2007",
+                    "Airing Status": "Complete",
+                    "Watching Status": "Finished"
+                }
+            ],
+            "Genres": [
+                "Shounen"
+            ]
+        },
+        {
+            "Anime Name": "One Piece",
+            "Seasons": [
+                {
+                    "Episodes": "979",
+                    "Release Date": "1999",
+                    "Airing Status": "Ongoing",
+                    "Watching Status": "Finished"
+                }
+            ],
+            "Genres": [
+                "Shounen"
+            ]
+        },
+        {
+            "Anime Name": "One Punch Man",
+            "Seasons": [
+                {
+                    "Episodes": "12",
+                    "Release Date": "2015",
+                    "Airing Status": "Complete",
+                    "Watching Status": "Finished"
+                },
+                {
+                    "Episodes": "12",
+                    "Release Date": "2018",
+                    "Airing Status": "Complete",
+                    "Watching Status": "Finished"
+                }
+            ],
+            "Genres": [
+                "Superhero"
+            ]
+        },
+        {
+            "Anime Name": "Parasyte: The Maxim",
+            "Seasons": [
+                {
+                    "Episodes": "24",
+                    "Release Date": "2015",
+                    "Airing Status": "Complete",
+                    "Watching Status": "Finished"
+                }
+            ],
+            "Genres": [
+                "Horror Thriller"
+            ]
+        },
+        {
+            "Anime Name": "Radiant",
+            "Seasons": [
+                {
+                    "Episodes": "21",
+                    "Release Date": "2018",
+                    "Airing Status": "Complete",
+                    "Watching Status": "Finished"
+                },
+                {
+                    "Episodes": "21",
+                    "Release Date": "2019",
+                    "Airing Status": "Complete",
+                    "Watching Status": "Finished"
+                }
+            ],
+            "Genres": [
+                "Shounen"
+            ]
+        },
+        {
+            "Anime Name": "Re:ZERO -Starting Life in Another World",
+            "Seasons": [
+                {
+                    "Episodes": "25",
+                    "Release Date": "2016",
+                    "Airing Status": "Complete",
+                    "Watching Status": "Finished"
+                },
+                {
+                    "Episodes": "25",
+                    "Release Date": "2020",
+                    "Airing Status": "Complete",
+                    "Watching Status": "Watching"
+                }
+            ],
+            "Genres": [
+                "Shounen"
+            ]
+        },
+        {
+            "Anime Name": "Samurai 7",
+            "Seasons": [
+                {
+                    "Episodes": "26",
+                    "Release Date": "2006",
+                    "Airing Status": "Complete",
+                    "Watching Status": "Finished"
+                }
+            ],
+            "Genres": [
+                "Adventure"
+            ]
+        },
+        {
+            "Anime Name": "Steins;Gate",
+            "Seasons": [
+                {
+                    "Episodes": "25",
+                    "Release Date": "2011",
+                    "Airing Status": "Complete",
+                    "Watching Status": "Not Yet"
+                },
+                {
+                    "Episodes": "23",
+                    "Release Date": "2018",
+                    "Airing Status": "Complete",
+                    "Watching Status": "Not Yet"
+                }
+            ],
+            "Genres": [
+                "Psychological Thriller"
+            ]
+        },
+        {
+            "Anime Name": "Sword Art Online",
+            "Seasons": [
+                {
+                    "Episodes": "25",
+                    "Release Date": "2012",
+                    "Airing Status": "Complete",
+                    "Watching Status": "Finished"
+                },
+                {
+                    "Episodes": "24",
+                    "Release Date": "2014",
+                    "Airing Status": "Complete",
+                    "Watching Status": "Finished"
+                },
+                {
+                    "Episodes": "47",
+                    "Release Date": "2018",
+                    "Airing Status": "Complete",
+                    "Watching Status": "Not Yet"
+                }
+            ],
+            "Genres": [
+                "Shounen"
+            ]
+        },
+        {
+            "Anime Name": "Taboo Tattoo",
+            "Seasons": [
+                {
+                    "Episodes": "12",
+                    "Release Date": "2016",
+                    "Airing Status": "Complete",
+                    "Watching Status": "Finished"
+                }
+            ],
+            "Genres": [
+                "Dark Fantasy"
+            ]
+        },
+        {
+            "Anime Name": "The Disastrous Life of Saiki K",
+            "Seasons": [
+                {
+                    "Episodes": "24",
+                    "Release Date": "2016",
+                    "Airing Status": "Complete",
+                    "Watching Status": "Finished"
+                },
+                {
+                    "Episodes": "24",
+                    "Release Date": "2018",
+                    "Airing Status": "Complete",
+                    "Watching Status": "Not Yet"
+                },
+                {
+                    "Episodes": "06",
+                    "Release Date": "2019",
+                    "Airing Status": "Complete",
+                    "Watching Status": "Finished"
+                }
+            ],
+            "Genres": [
+                "Supernatural"
+            ]
+        },
+        {
+            "Anime Name": "The God Of High School",
+            "Seasons": [
+                {
+                    "Episodes": "13",
+                    "Release Date": "2020",
+                    "Airing Status": "Complete",
+                    "Watching Status": "Finished"
+                }
+            ],
+            "Genres": [
+                "Shounen"
+            ]
+        },
+        {
+            "Anime Name": "The Millionaire Detective - Balance UNLIMITED",
+            "Seasons": [
+                {
+                    "Episodes": "11",
+                    "Release Date": "2020",
+                    "Airing Status": "Complete",
+                    "Watching Status": "Finished"
+                }
+            ],
+            "Genres": [
+                "Mystery"
+            ]
+        },
+        {
+            "Anime Name": "The Promised Neverland",
+            "Seasons": [
+                {
+                    "Episodes": "12",
+                    "Release Date": "2019",
+                    "Airing Status": "Complete",
+                    "Watching Status": "Finished"
+                },
+                {
+                    "Episodes": "11",
+                    "Release Date": "2021",
+                    "Airing Status": "Complete",
+                    "Watching Status": "Finished"
+                }
+            ],
+            "Genres": [
+                "Dark Fantasy"
+            ]
+        },
+        {
+            "Anime Name": "The Seven Deadly Sins",
+            "Seasons": [
+                {
+                    "Episodes": "24",
+                    "Release Date": "2014",
+                    "Airing Status": "Complete",
+                    "Watching Status": "Finished"
+                },
+                {
+                    "Episodes": "04",
+                    "Release Date": "2026",
+                    "Airing Status": "Complete",
+                    "Watching Status": "Finished"
+                },
+                {
+                    "Episodes": "24",
+                    "Release Date": "2018",
+                    "Airing Status": "Complete",
+                    "Watching Status": "Finished"
+                },
+                {
+                    "Episodes": "24",
+                    "Release Date": "2019",
+                    "Airing Status": "Complete",
+                    "Watching Status": "Finished"
+                },
+                {
+                    "Episodes": "24",
+                    "Release Date": "2021",
+                    "Airing Status": "Ongoing",
+                    "Watching Status": "Not Yet"
+                }
+            ],
+            "Genres": [
+                "Shounen"
+            ]
+        },
+        {
+            "Anime Name": "Tokyo Ghoul",
+            "Seasons": [
+                {
+                    "Episodes": "12",
+                    "Release Date": "2017",
+                    "Status": "Finished"
+                },
+                {
+                    "Episodes": "12",
+                    "Release Date": "2017",
+                    "Status": "Finished"
+                },
+                {
+                    "Episodes": "12",
+                    "Release Date": "2018",
+                    "Status": "Finished"
+                },
+                {
+                    "Episodes": "12",
+                    "Release Date": "2018",
+                    "Status": "Finished"
+                }
+            ],
+            "Genres": [
+                "Dark Fantasy"
+            ]
+        },
+        {
+            "Anime Name": "Vinland Saga",
+            "Seasons": [
+                {
+                    "Episodes": "24",
+                    "Release Date": "2019",
+                    "Airing Status": "Complete",
+                    "Watching Status": "Finished"
+                }
+            ],
+            "Genres": [
+                "Adventure"
+            ]
+        }
+    ],
+    "Manga_List": [
+        {
+            "Manga Name": "Solo Leveling",
+            "Date Released": "2019",
+            "Airing Status": "Ongoing",
+            "Chapters": "155",
+            "Reading Status": "Reading",
+            "Genres": [
+                "Adventure",
+                "Shounen"
+            ]
+        }
+    ],
+    "Novel_List": [
+        {
+            "Novel Name": "Solo Leveling",
+            "Date Released": "2019",
+            "Chapters": "271",
+            "Reading Status": "Finished",
+            "Genres": [
+                "Adventure",
+                "Shounen"
+            ]
+        }
+    ]
+}

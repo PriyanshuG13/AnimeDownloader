@@ -3,8 +3,8 @@ import requests
 from bs4 import BeautifulSoup
 from datetime import date
 import time
-from AnimeDatabaseManager.AnimeDB import DownloadAnimeDB
 from os import system
+from AnimeDatabase.AnimeDB import databaseManager
 
 sec = 40
 
@@ -50,7 +50,7 @@ def DLAnime(n, db):
 
 
 today = date.today().strftime("%A")
-db = DownloadAnimeDB()
+db = databaseManager()
 
 system(f"""clear
         if [ $(tput cols)  -le  100 ]

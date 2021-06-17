@@ -3,14 +3,14 @@ import requests
 from bs4 import BeautifulSoup
 from datetime import date
 import time
-# from AnimeDatabaseManager.AnimeDB import DownloadAnimeDB as Animedb
+from AnimeDatabase.AnimeDB import DownloadAnimeDB as Animedb
 from os import system
 
 
 class Downloader:
-    def __init__(self, n=0, font=None):
+    def __init__(self, n=-1, font=None):
         self.font = font
-        # self.db = Animedb()
+        self.db = Animedb()
         self.n = n
         self.showHeader()
 
@@ -69,4 +69,4 @@ class Downloader:
             return 1
 
 
-Downloader = Downloader(font="small")
+# Downloader = Downloader(font="small")

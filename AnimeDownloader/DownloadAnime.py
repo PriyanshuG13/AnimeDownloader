@@ -3,7 +3,7 @@ import requests
 from bs4 import BeautifulSoup
 from datetime import date
 import time
-from AnimeDB import DownloadAnimeDB
+from AnimeDatabaseManager.AnimeDB import DownloadAnimeDB
 from os import system
 
 sec = 40

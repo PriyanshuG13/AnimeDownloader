@@ -3,7 +3,6 @@ import json
 import pathlib
 from prettytable import PrettyTable
 from os import system
-# from art import *
 
 path = pathlib.Path(__file__).parent.absolute()
 

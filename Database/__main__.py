@@ -1,4 +1,4 @@
-from AnimeDB import DatabaseManager as dbm
+from DatabaseManager import DatabaseManager as dbm
 
 
 db = dbm()

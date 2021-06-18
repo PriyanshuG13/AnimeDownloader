@@ -1,7 +1,7 @@
 from datetime import date
 import time
-from AnimeDatabase.AnimeDB import DatabaseManager as Animedb
-from DownloadAnime import Downloader
+from Database.DatabaseManager import DatabaseManager as Animedb
+from Downloader import Downloader
 from os import system
 
 sec = 60
@@ -72,3 +72,5 @@ def New():
 
     # [Golumpa] Kaguya-sama - Love is War [FuniDub 720p x264 AAC]
     # [SubsPlease] Black Clover (1080p)
+
+    # "https://nyaa.iss.one/?f=0&c=0_0&q=[SubsPlease] Black Clover (1080p)"

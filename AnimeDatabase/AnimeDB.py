@@ -2,12 +2,13 @@ import csv
 import json
 import pathlib
 from prettytable import PrettyTable
-from os import system
+from os import system, remove
 
 
-class databaseManager:
+class DatabaseManager:
     def __init__(self, db='downloader', animedbFile='Anime_Database.json'):
         self.curPath = pathlib.Path(__file__).parent.absolute()
+        # self.cacheFile = str(self.curPath) + "/cache.json"
         self.animedbFile = animedbFile
         self.animedbFilePath = str(self.curPath) + "/" + self.animedbFile
         demo = {}
@@ -25,8 +26,8 @@ class databaseManager:
                     'Quality': '(1080p)',
                     'Audio': '(SUB)'
                 }]}
-        else:
-            self.mainkey = "List"
+        elif db == "default":
+            self.mainkey = "Default"
             demo = {self.mainkey: [
                 "This is a Demo File.",
                 "Please Insert Data on your Own.",
@@ -57,7 +58,7 @@ class databaseManager:
 
     def insert(self, rows=None):
         adbn = self.animedbEdited[self.mainkey]
-        if self.mainkey == 'List':
+        if self.mainkey == 'Default':
             if rows is not None:
                 rows = rows.split(",")
                 rows = {
@@ -126,6 +127,7 @@ class databaseManager:
         adbn.pop(rowNo)
         adbn[rowNo].update({'Commit': True})
 
+
     def update(self, rowNo, column, value):
         adbn = self.animedbEdited[self.mainkey]
         adbn[rowNo].update({column: value})
@@ -189,3 +191,4 @@ class databaseManager:
             csv_writer.writerow(row)
             i += 1
         animedb.close()
+

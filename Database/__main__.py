@@ -1,4 +1,5 @@
 from sys import argv
+
 from DatabaseManager import DatabaseManager, insert
 
 if len(argv) > 1:

@@ -1,6 +1,7 @@
 import os
 import subprocess
 import webbrowser
+
 import clipboard
 import requests
 from bs4 import BeautifulSoup

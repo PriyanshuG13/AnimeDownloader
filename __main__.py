@@ -1,8 +1,8 @@
 import time
 from datetime import date
 
-from Downloader import Downloader
 from Database.DatabaseManager import insert
+from Downloader import Downloader
 
 sec = 60
 today = date.today().strftime("%A")
@@ -12,9 +12,9 @@ table = ads.animedb['Downloader']
 if len(table) != 0:
     ads.fancyPrint(f"Today-{today}", "straight")
     ads.normalPrint("M. Manually Select from Database.\n"
-                           "A. Automatic(Today) from Database.\n"
-                           "N. New Anime from Input.\n\n"
-                           "Choose....:)", end='\c')
+                    "A. Automatic(Today) from Database.\n"
+                    "N. New Anime from Input.\n\n"
+                    "Choose....:)", end='\c')
     op = input().upper()
     if op == 'M':
         ads.show()

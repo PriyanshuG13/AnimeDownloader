@@ -9,7 +9,7 @@ from Database.DatabaseManager import DatabaseManager as Animedb
 
 
 class Downloader(Animedb):
-    def __init__(self, delay=40):
+    def __init__(self, delay=60):
         self._COLS = os.get_terminal_size().columns
         self.showHeader()
         super().__init__()
@@ -89,12 +89,12 @@ class Downloader(Animedb):
 
     def drawline(self, cols):
         print(end='\nX')
-        for col in range(cols-2):
+        for col in range(cols - 2):
             print(end='~')
         print('X\n')
 
     def commitToDb(self):
-        self.normalPrint("Commit?? : \c")
+        self.normalPrint("Commit?? : ", end='\c')
         if input().upper() == 'Y':
             self.commit()
             self.fancyPrint("COMMITED UPDATES", 'short')
@@ -102,7 +102,7 @@ class Downloader(Animedb):
         self.drawline(self._COLS)
 
     def fancyPrint(self, text, font='digital'):
-        subprocess.run(f'figlet -w $(tput cols) -c -f {font} "{text}" | lolcat', shell=True)
-
-    def normalPrint(self, text):
-        subprocess.run(f'echo "{text}" | lolcat', shell=True)
+        try:
+            subprocess.run(f'figlet -w $(tput cols) -c -f {font} "{text}" | lolcat', shell=True, check=True)
+        except:
+            print(text)

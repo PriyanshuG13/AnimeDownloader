@@ -1,7 +1,7 @@
 import csv
 import json
 import pathlib
-from os import system
+import subprocess
 
 from prettytable import PrettyTable
 
@@ -9,7 +9,6 @@ from prettytable import PrettyTable
 class DatabaseManager:
     def __init__(self, db='downloader', animedbFile='Anime_Database.json'):
         self.curPath = pathlib.Path(__file__).parent.absolute()
-        self.cacheFile = str(self.curPath) + "/cache.json"
         self.animedbFile = animedbFile
         self.animedbFilePath = str(self.curPath) + "/" + self.animedbFile
         demo = {}
@@ -25,7 +24,8 @@ class DatabaseManager:
                     'Season': 'N/A',
                     'EP': 978,
                     'Quality': '(1080p)',
-                    'Audio': '(SUB)'
+                    'Audio': '(SUB)',
+                    'Air_Day': 'Sunday'
                 }]}
         elif db == "default":
             self.mainkey = "Default"
@@ -47,8 +47,8 @@ class DatabaseManager:
             with open(self.animedbFilePath, 'r') as animedbFile:
                 self.animedb = json.load(animedbFile)
         except:
-            system('echo "Creating New Database File(JSON) :)" | lolcat')
-            print("Looking like this")
+            self.normalPrint("Creating New Database File(JSON) :)\n"
+                             "Looking like this")
             jo = json.dumps(demo, indent=4)
             print(jo)
             with open(self.animedbFilePath, "w") as outfile:
@@ -73,14 +73,21 @@ class DatabaseManager:
                     'Commit': True
                 }
             else:
-                print(f"Insert Element({len(adbn)})")
-                aname = input("Anime Name: ")
-                releasedate = input("Date Aired: ")
-                astatus = input("Airing Status: ")
-                wstatus = input("Watching Status: ")
-                genres = input("Genres: ").split(",")
-                seasons = input("Seasons(if any): ")
-                ep = input("Last Episode(if with season than total): ")
+                self.normalPrint(f"Insert Element({len(adbn)})")
+                self.normalPrint("Anime Name: ", end='\c')
+                aname = input()
+                self.normalPrint("Date Aired: ", end='\c')
+                releasedate = input()
+                self.normalPrint("Airing Status: ", end='\c')
+                astatus = input()
+                self.normalPrint("Watching Status: ", end='\c')
+                wstatus = input()
+                self.normalPrint("Genres(comma seprated): ", end='\c')
+                genres = input().split(",")
+                self.normalPrint("Seasons(if any): ", end='\c')
+                seasons = input()
+                self.normalPrint("Last Episode(if with season than total): ", end='\c')
+                ep = input()
                 rows = {
                     "Anime Name": aname,
                     "Release Date": releasedate,
@@ -105,14 +112,21 @@ class DatabaseManager:
                     "Commit": True
                 }
             else:
-                print(f"Insert Element({len(adbn)})")
-                provider = input("Provider Name: ")
-                aname = input("Anime Name: ")
-                season = input("Season Number(if any): ")
-                ep = input("Episode Number: ")
-                quality = input("Quality: ")
-                audio = input("Audio(SUB/DUB): ")
-                aday = input("Air_Day: ")
+                self.normalPrint(f"Insert Element({len(adbn)})")
+                self.normalPrint("Provider Name: ", end='\c')
+                provider = input()
+                self.normalPrint("Anime Name: ", end='\c')
+                aname = input()
+                self.normalPrint("Season Number(if any): ", end='\c')
+                season = input()
+                self.normalPrint("Episode Number: ", end='\c')
+                ep = input()
+                self.normalPrint("Quality: ", end='\c')
+                quality = input()
+                self.normalPrint("Audio(SUB/DUB): ", end='\c')
+                audio = input()
+                self.normalPrint("Air_Day: ", end='\c')
+                aday = input()
                 rows = {
                     "Provider": provider,
                     "Anime_Name": aname,
@@ -155,28 +169,37 @@ class DatabaseManager:
         jo = json.dumps(self.animedb, indent=4)
         with open(self.animedbFilePath, "w") as outfile:
             outfile.write(jo)
-        print(f"Committed rows({j})")
+        self.normalPrint(f"Committed rows:{j}")
 
     def show(self):
         i = 1
         rows = self.animedb[self.mainkey]
         if len(rows) != 0:
-            x = PrettyTable(padding_width=1)
+            table = PrettyTable(padding_width=1)
             header = ["S_No."]
             header.extend(list(rows[0].keys()))
-            x.field_names = header
-            x.align = 'l'
+            table.field_names = header
+            table.align = 'l'
             for row in rows:
                 row = list(row.values())
                 row.insert(0, i)
-                x.add_row(row)
+                table.add_row(row)
                 i += 1
 
             if self.mainkey == 'List':
-                system(f'echo "{x.get_string()}" | lolcat')
+                self.normalPrint(table.get_string())
             elif self.mainkey == 'Downloader':
                 header = ["S_No.", "Anime_Name", "EP", "Audio", "Air_Day"]
-                system(f'echo "{x.get_string(fields=header)}" | lolcat')
+                self.normalPrint(table.get_string(fields=header))
+
+    def normalPrint(self, text, end=''):
+        try:
+            subprocess.run(f'echo "{text} {end}" | lolcat', shell=True, check=True)
+        except:
+            if end == '\c':
+                print(text, end='')
+            else:
+                print(text)
 
     def jsonToCSV(self):
         rows = self.animedb[self.mainkey]
@@ -193,4 +216,5 @@ class DatabaseManager:
             row.insert(0, i)
             csv_writer.writerow(row)
             i += 1
+        self.normalPrint(f"Created CSV File with Name Anime_{self.mainkey}.csv")
         animedb.close()

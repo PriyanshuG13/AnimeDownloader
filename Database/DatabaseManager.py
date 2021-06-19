@@ -1,14 +1,15 @@
 import csv
 import json
 import pathlib
+from os import system
+
 from prettytable import PrettyTable
-from os import system, remove
 
 
 class DatabaseManager:
     def __init__(self, db='downloader', animedbFile='Anime_Database.json'):
         self.curPath = pathlib.Path(__file__).parent.absolute()
-        # self.cacheFile = str(self.curPath) + "/cache.json"
+        self.cacheFile = str(self.curPath) + "/cache.json"
         self.animedbFile = animedbFile
         self.animedbFilePath = str(self.curPath) + "/" + self.animedbFile
         demo = {}
@@ -100,6 +101,7 @@ class DatabaseManager:
                     "EP": rows[3],
                     "Quality": rows[4],
                     "Audio": rows[5],
+                    "Air_Day": rows[6],
                     "Commit": True
                 }
             else:
@@ -110,6 +112,7 @@ class DatabaseManager:
                 ep = input("Episode Number: ")
                 quality = input("Quality: ")
                 audio = input("Audio(SUB/DUB): ")
+                aday = input("Air_Day: ")
                 rows = {
                     "Provider": provider,
                     "Anime_Name": aname,
@@ -117,8 +120,9 @@ class DatabaseManager:
                     "EP": ep,
                     "Quality": quality,
                     "Audio": audio,
+                    "Air_Day": aday,
                     "Commit": True
-            }
+                }
 
         adbn.append(rows)
 
@@ -126,7 +130,6 @@ class DatabaseManager:
         adbn = self.animedbEdited[self.mainkey]
         adbn.pop(rowNo)
         adbn[rowNo].update({'Commit': True})
-
 
     def update(self, rowNo, column, value):
         adbn = self.animedbEdited[self.mainkey]
@@ -191,4 +194,3 @@ class DatabaseManager:
             csv_writer.writerow(row)
             i += 1
         animedb.close()
-

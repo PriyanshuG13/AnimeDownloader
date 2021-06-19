@@ -9,10 +9,10 @@ from bs4 import BeautifulSoup
 from Database.DatabaseManager import DatabaseManager as Animedb
 
 
-class Downloader:
+class Downloader(Animedb):
     def __init__(self, delay=40):
-        # self.showHeader()
-        self._DB = Animedb()
+        self.showHeader()
+        super().__init__()
         self.__URL = "https://nyaa.iss.one/?f=0&c=0_0&q="
         self.__delay = delay
         self._COLS = os.get_terminal_size().columns
@@ -20,20 +20,19 @@ class Downloader:
     def showHeader(self, font=None):
         os.system('cls||clear')
         cols = self._COLS
-        self._drawline(cols)
+        self.drawline(cols)
         if font is not None:
-            subprocess.run(f'figlet -w $(tput cols) -c -f {font} Anime Downloader Script | lolcat', shell=True)
+            self.fancyPrint("Anime Downloader Script", font)
         else:
             if cols <= 125:
                 self.fancyPrint("Anime Downloader Script", 'small')
             else:
                 self.fancyPrint("Anime Downloader Script", 'isometric3')
-        self._drawline(cols)
+        self.drawline(cols)
 
     def downloadFromDB(self, n):
-        db = self._DB
         url = self.__URL
-        row = list(db.animedb['Downloader'][n - 1].values())
+        row = list(self.animedb['Downloader'][n - 1].values())
         ep = self.__incrementEP(row[3])
         for j in range(6):
             if row[j] == 'N/A':
@@ -45,9 +44,9 @@ class Downloader:
         self.fancyPrint(f'{row[1]}\nEP-{row[3]} -> {ep}', 'digital')
         try:
             self.__downloader(url)
-            db.update(n - 1, "EP", ep)
             self.fancyPrint("COPIED TO CLIPBOARD", 'digital')
             self.fancyPrint("UPDATED EPISODE IN DATABASE", 'straight')
+            self.update(n - 1, "EP", ep)
             return self.__delay
         except:
             self.fancyPrint("NOT YET AVAILABLE", 'short')
@@ -89,19 +88,19 @@ class Downloader:
             ep = "0" + str(int(ep) + 1)
         return ep
 
-    def _drawline(self, cols):
+    def drawline(self, cols):
         print(end='\nX')
         for col in range(cols-2):
             print(end='~')
         print('X\n')
 
-    def _commit(self):
+    def commitToDb(self):
         subprocess.run(f'echo "Commit?? : \c" | lolcat', shell=True)
         if input().upper() == 'Y':
-            self._DB.commit()
+            self.commit()
             self.fancyPrint("COMMITED UPDATES", 'short')
 
-        self._drawline(self._COLS)
+        self.drawline(self._COLS)
 
     def fancyPrint(self, text, font='digital'):
         subprocess.run(f'figlet -w $(tput cols) -c -f {font} "{text}" | lolcat', shell=True)

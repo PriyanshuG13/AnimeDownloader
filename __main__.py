@@ -1,72 +1,41 @@
-from datetime import date
+import subprocess
 import time
-from Database.DatabaseManager import DatabaseManager as Animedb
+from datetime import date
+
 from Downloader import Downloader
-from os import system
 
 sec = 60
 today = date.today().strftime("%A")
-db = Animedb()
-
-system(f"""
-        figlet -w $(tput cols) -c -f straight Today-{today} | lolcat
-        echo "Auto(A) or Manual(M):\c" | lolcat
-        """)
+Downloader = Downloader()
+Downloader.fancyPrint(f"Today-{today}", "straight")
+subprocess.run(f'echo "Auto(A) or Manual(M):\c" | lolcat', shell=True)
 
 if input().upper() == 'M':
-    db.show()
-    system('echo "Choose:\c" | lolcat')
+    Downloader.show()
+    subprocess.run(f'echo "Choose Anime S_No.:\c" | lolcat', shell=True)
     n = int(input())
-    sec = DLAnime(n, db)
+    sec = Downloader.downloadFromDB(n)
 
 else:
-    if today == "Monday":
-        sec = DLAnime(3, db)
-    elif today == "Tuesday":
-        pass
-    elif today == "Wednesday":
-        sec = DLAnime(2, db)
-    elif today == "Thursday":
-        pass
-    elif today == "Friday":
-        pass
-    elif today == "Saturday":
-        sec = DLAnime(6, db)
-        time.sleep(sec)
-        sec = DLAnime(7, db)
-        time.sleep(sec)
-        sec = DLAnime(8, db)
-    elif today == "Sunday":
-        sec = DLAnime(1, db)
-        time.sleep(sec)
-        sec = DLAnime(4, db)
+    rows = Downloader.animedb['Downloader']
+    rowCount = len(Downloader.animedb['Downloader'])
+    for i in range(rowCount):
+        if today == rows[i][6]:
+            sec = Downloader.downloadFromDB(i)
+            time.sleep(sec)
 
 if (sec != 1):
-    system('echo "Commit?? : \c" | lolcat')
-    if input().upper() == 'Y':
-        db.commit()
-        system('echo "Committed........." | lolcat')
-
-
+    Downloader.commitToDb()
 
 
 def New():
-    system(f"""clear
-        if [ $(tput cols)  -le  100 ]
-            then
-              figlet -w $(tput cols) -c -f small Anime Downloader Script | lolcat
-        else
-              figlet -w $(tput cols) -c -f isometric3 Anime Downloader Script | lolcat
-        fi
-        """)
-
+    global sec
     print("Enter Anime Name from nyaa.iss.one")
     name = input("Enter Anime Full Name without EP:")
-    se = int(input("Enter Episode Count(From):"))
-    i = se
-    system(f'figlet -w $(tput cols) -c -f digital "{name}" | lolcat')
+    i = int(input("Enter Episode Count(From):"))
+    Downloader.fancyPrint(name, "digital")
     while sec != 1:
-        sec = DLNAnime(name, i)
+        sec = Downloader.downloadFromInput(name, i)
         i += 1
         time.sleep(sec)
 

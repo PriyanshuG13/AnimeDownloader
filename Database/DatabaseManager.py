@@ -9,11 +9,10 @@ from prettytable import PrettyTable
 class DatabaseManager:
     def __init__(self, table='downloader'):
         self.curPath = pathlib.Path(__file__).parent.absolute()
-        self.animedbFile = 'Anime_Database.json'
-        self.animedbFilePath = str(self.curPath) + "/" + self.animedbFile
         demo = {}
         if table == 'downloader':
             self.mainkey = "Downloader"
+            self.animedbFilePath = f'{str(self.curPath)}/Anime_Database.json'
             demo = {self.mainkey: [
                 {
                     'Provider': '[SubsPlease]',
@@ -29,6 +28,7 @@ class DatabaseManager:
             ]}
         elif table == "default":
             self.mainkey = "Default"
+            self.animedbFilePath = f'{str(self.curPath)}/Anime_Database.json'
             demo = {self.mainkey: [
                 {
                     'Anime Name': 'One Piece',

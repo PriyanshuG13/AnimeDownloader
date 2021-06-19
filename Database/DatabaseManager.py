@@ -98,10 +98,10 @@ class DatabaseManager:
                     "Provider": rows[0],
                     "Anime_Name": rows[1],
                     "Season": rows[2],
-                    "EP": rows[3],
-                    "Quality": rows[4],
-                    "Audio": rows[5],
-                    "Air_Day": rows[6],
+                    "EP": rows[6],
+                    "Quality": rows[3],
+                    "Audio": rows[4],
+                    "Air_Day": rows[5],
                     "Commit": True
                 }
             else:
@@ -175,7 +175,7 @@ class DatabaseManager:
             if self.mainkey == 'List':
                 system(f'echo "{x.get_string()}" | lolcat')
             elif self.mainkey == 'Downloader':
-                header = ["S_No.", "Anime_Name", "EP", "Audio"]
+                header = ["S_No.", "Anime_Name", "EP", "Audio", "Air_Day"]
                 system(f'echo "{x.get_string(fields=header)}" | lolcat')
 
     def jsonToCSV(self):

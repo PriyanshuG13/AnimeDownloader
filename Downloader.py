@@ -4,21 +4,20 @@ import webbrowser
 import clipboard
 import requests
 from bs4 import BeautifulSoup
-# import platform
 
 from Database.DatabaseManager import DatabaseManager as Animedb
 
 
 class Downloader(Animedb):
     def __init__(self, delay=40):
+        self._COLS = os.get_terminal_size().columns
         self.showHeader()
         super().__init__()
         self.__URL = "https://nyaa.iss.one/?f=0&c=0_0&q="
         self.__delay = delay
-        self._COLS = os.get_terminal_size().columns
 
     def showHeader(self, font=None):
-        os.system('cls||clear')
+        os.system('clear||cls')
         cols = self._COLS
         self.drawline(cols)
         if font is not None:
@@ -95,7 +94,7 @@ class Downloader(Animedb):
         print('X\n')
 
     def commitToDb(self):
-        subprocess.run(f'echo "Commit?? : \c" | lolcat', shell=True)
+        self.normalPrint("Commit?? : \c")
         if input().upper() == 'Y':
             self.commit()
             self.fancyPrint("COMMITED UPDATES", 'short')
@@ -104,3 +103,6 @@ class Downloader(Animedb):
 
     def fancyPrint(self, text, font='digital'):
         subprocess.run(f'figlet -w $(tput cols) -c -f {font} "{text}" | lolcat', shell=True)
+
+    def normalPrint(self, text):
+        subprocess.run(f'echo "{text}" | lolcat', shell=True)

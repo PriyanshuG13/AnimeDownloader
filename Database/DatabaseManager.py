@@ -7,17 +7,14 @@ from prettytable import PrettyTable
 
 
 class DatabaseManager:
-    def __init__(self, db='downloader', animedbFile='Anime_Database.json'):
+    def __init__(self, table='downloader'):
         self.curPath = pathlib.Path(__file__).parent.absolute()
-        self.animedbFile = animedbFile
+        self.animedbFile = 'Anime_Database.json'
         self.animedbFilePath = str(self.curPath) + "/" + self.animedbFile
         demo = {}
-        if db == 'downloader':
+        if table == 'downloader':
             self.mainkey = "Downloader"
             demo = {self.mainkey: [
-                "This is a Demo File.",
-                "Please Insert Data on your Own.",
-                "using the instructions",
                 {
                     'Provider': '[SubsPlease]',
                     'Anime_Name': 'One Piece',
@@ -26,13 +23,13 @@ class DatabaseManager:
                     'Quality': '(1080p)',
                     'Audio': '(SUB)',
                     'Air_Day': 'Sunday'
-                }]}
-        elif db == "default":
+                },
+                "This is a Demo File.",
+                "Please Insert Data on your Own."
+            ]}
+        elif table == "default":
             self.mainkey = "Default"
             demo = {self.mainkey: [
-                "This is a Demo File.",
-                "Please Insert Data on your Own.",
-                "using the instructions",
                 {
                     'Anime Name': 'One Piece',
                     'Release Date': '1999-Ongoing',
@@ -41,19 +38,24 @@ class DatabaseManager:
                     'Genres': ['Shounen'],
                     'Seasons': 'N/A',
                     'Episodes': 979
-                }]}
+                },
+                "This is a Demo File.",
+                "Please Insert Data on your Own."
+            ]}
 
         try:
             with open(self.animedbFilePath, 'r') as animedbFile:
                 self.animedb = json.load(animedbFile)
         except:
             self.normalPrint("Creating New Database File(JSON) :)\n"
-                             "Looking like this")
+                             "At first it will be empty.\n"
+                             "But After Your first insert it will look like this:")
             jo = json.dumps(demo, indent=4)
             print(jo)
-            with open(self.animedbFilePath, "w") as outfile:
-                outfile.write(jo)
             self.animedb = {self.mainkey: []}
+            with open(self.animedbFilePath, "w") as animedbFile:
+                dbJSON = json.dumps(self.animedb, indent=4)
+                animedbFile.write(dbJSON)
 
         self.animedbEdited = self.animedb
 
@@ -218,3 +220,29 @@ class DatabaseManager:
             i += 1
         self.normalPrint(f"Created CSV File with Name Anime_{self.mainkey}.csv")
         animedb.close()
+
+
+def insert(dbm):
+    dbm.normalPrint("Inserting can be performed:\n"
+                    '1.) Single Line Input comma(,) seperated all within inverted commas("") \n'
+                    'like this:) "[SubsPlease],Boku No Hero Academia,N/A,(1080p),(SUB),Saturday,100" '
+                    "2.) Separate Input for each Column\n")
+    print("Note: For Single Line Input pay close attention to what is to be writen where\n"
+          "and for the columns you want to live empty write 'N/A' instead.\n")
+    dbm.normalPrint("Choose. (1 or 2):", end='\c')
+    ch = int(input())
+    loop = True
+    if ch == 1:
+        while loop:
+            dbm.normalPrint("Insert Values to Database:", end='\c')
+            dbm.insert(input())
+            dbm.normalPrint("want to insert more (Y/n):", end='\c')
+            if input().upper() == 'N':
+                loop = False
+    elif ch == 2:
+        while loop:
+            dbm.insert()
+            dbm.normalPrint("want to insert more (Y/n):", end='\c')
+            if input().upper() == 'N':
+                loop = False
+    dbm.commit()

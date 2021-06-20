@@ -20,7 +20,7 @@ if len(table) != 0:
         ads.show()
         ads.normalPrint("Select S_No.:", end='\c')
         n = int(input())
-        sec = ads.downloadFromDB(n)
+        sec = ads.downloadFromDB(n - 1)
         if sec != -1:
             ads.commitToDb()
 

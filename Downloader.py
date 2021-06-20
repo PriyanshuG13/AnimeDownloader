@@ -5,6 +5,7 @@ import webbrowser
 import clipboard
 import requests
 from bs4 import BeautifulSoup
+from pyfiglet import Figlet
 
 from Database.DatabaseManager import DatabaseManager as Animedb
 
@@ -32,7 +33,7 @@ class Downloader(Animedb):
 
     def downloadFromDB(self, n):
         url = self.__URL
-        row = list(self.animedb['Downloader'][n - 1].values())
+        row = list(self.animedb['Downloader'][n].values())
         ep = self.__incrementEP(row[3])
         for j in range(6):
             if row[j] == 'N/A':
@@ -106,4 +107,5 @@ class Downloader(Animedb):
         try:
             subprocess.run(f'figlet -w $(tput cols) -c -f {font} "{text}" | lolcat', shell=True, check=True)
         except:
-            print(text)
+            f = Figlet(font=font)
+            print(f.renderText(text))

@@ -85,7 +85,7 @@ class Downloader(Animedb):
     def __incrementEP(self, ep):
         ep = str(int(ep) + 1)
         if int(ep) < 10:
-            ep = "0" + str(int(ep) + 1)
+            ep = "0" + ep
         return ep
 
     def drawline(self, cols):

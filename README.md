@@ -1,4 +1,4 @@
-# AnimeDownloader
+# AnimeDownloader 
 
                                                           ___           ___                       ___           ___     
                                                          /  /\         /__/\        ___          /__/\         /  /\    
@@ -34,8 +34,6 @@
                                                     /__/:/       \  \::/       \  \:\         \__\/      \  \:\         \__\/
                                                     \__\/         \__\/         \__\/                     \__\/              
 
-This is a Anime Downloader which also keeps track of your Anime records using json.
-
 
 <!-- TABLE OF CONTENTS -->
 <details open="open">
@@ -64,17 +62,18 @@ This is a Anime Downloader which also keeps track of your Anime records using js
 
 <!-- ABOUT THE PROJECT -->
 ## About The Project
+This is an Anime Downloader which also keeps track of your Anime records using json database.
+Well it started as an automation for my daily use. But then I thought of making a full fleshed project for others. 
 
-There are many great README templates available on GitHub, however, I didn't find one that really suit my needs so I created this enhanced one. I want to create a README template so amazing that it'll be the last one you ever need -- I think this is it.
+This Python Project keeps can help you maintain an Anime Database in form of **JSON**.
 
-Here's why:
-* Your time should be focused on creating something amazing. A project that solves a problem and helps others
-* You shouldn't be doing the same tasks over and over like creating a README from scratch
-* You should element DRY principles to the rest of your life :smile:
+Basically there will be two tables in that database.
+1. To keep track of your **watched/watching/wishTo** Anime List with all the essential details about the Anime.
+2. To keep track of your **currently_airing/watching_live_episodes** Anime List for Download.
 
-Of course, no one template will serve all projects since your needs may be different. So I'll be adding more in the near future. You may also suggest changes by forking this repo and creating a pull request or opening an issue. Thanks to all the people have have contributed to expanding this template!
+For Download, it Uses Torrent. So I recommend you to download a torrent client.
+My preferred torrent client is **[Free Download Manager](https://www.freedownloadmanager.org)**.
 
-A list of commonly used resources that I find helpful are listed in the acknowledgements.
 
 ### Built With
 
@@ -85,12 +84,9 @@ A list of commonly used resources that I find helpful are listed in the acknowle
 <!-- GETTING STARTED -->
 ## Getting Started
 
-This is an example of how you may give instructions on setting up your project locally.
-To get a local copy up and running follow these simple example steps.
+This is to help you get started on the on how-to set up the project for your use.
 
 ### Prerequisites
-
-This is an example of how to list things you need to use the software and how to install them.
 
 #### macOS
 
@@ -102,21 +98,24 @@ This is an example of how to list things you need to use the software and how to
   pip install pipenv
   ```
 
-* figlet\
+* figlet
+  
   For using fonts like above in terminal.
   ```sh
   brew install figlet
   ```
 
-* lolcat\
+* lolcat
+  
   For using colorful text in terminal.
-  * Ruby
+  * RubyGem
     ```sh
     ruby -v #to check if already installed
     brew install ruby # install
     ruby -v
     ```
-  ```sh
+  ```shell
+  gem -v
   gem install lolcat
   ```
 
@@ -143,8 +142,48 @@ python .
 exit #for exiting pipenv shell
 ```
 
-Use this space to show useful examples of how a project can be used. Additional screenshots, code examples and demos work well in this space. You may also link to more resources.
+### Database Interactions
 
+#### For inserting to database
+
+* for single insert
+    ```
+    python Database <table_name> insert <input>
+  
+    #python Database downloader insert [SubsPlease],Boku No Hero Academia,N/A,(1080p),(SUB),Saturday,100
+    ```
+* for multiple insert
+    ```
+    python Database <table_name> insert multiple
+  
+    #python Database downloader insert multiple
+    ```
+
+#### For updating value in database
+
+```
+python Database <table_name> update <indexFrom0> <columnToUpdate> <newValue>
+
+# Updating first row
+# python Database downloader update 0 EP 8
+```
+
+#### For deleting from database
+
+```
+python Database <table_name> delete <indexfrom0>
+
+# Deleting first row
+# python Database downloader delete 0
+```
+
+#### For displaying table from database
+
+```
+python Database <table_name> show
+
+# python Database downloader show
+```
 
 <!-- CONTRIBUTING 
 ## Contributing
@@ -175,8 +214,10 @@ Project Link: [https://github.com/PriyanshuG13/AnimeDownloader.git](https://gith
 
 <!-- ACKNOWLEDGEMENTS -->
 ## Acknowledgements
+* [Free Download Manager](https://www.freedownloadmanager.org)
+* [nyaa.iss.one](https://nyaa.iss.one)
 * [Homebrew](https://brew.sh)
-* [Ruby](https://www.ruby-lang.org/en/)
+* [RubyGem](https://www.ruby-lang.org/en/)
 * [figlet](http://www.figlet.org)
 * [lolcat](https://github.com/busyloop/lolcat.git)
 * [Requests](https://pypi.org/project/requests/)

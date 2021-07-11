@@ -1,8 +1,33 @@
 import time
 from datetime import date
+from sys import argv
 
 from Database.DatabaseManager import insert
 from Downloader import Downloader
+
+if len(argv) > 1 and argv[1] == '-h':
+    print(
+        '''
+        python3 [Path + /AnimeDownloader] : "For using Downloader shell."
+        python3 [Path + /AnimeDownloader/Database] <table_name_in_small>
+            Options:
+                [insert][multiple] : "For using insert with keys visible."
+                    example : AnimeDownloader/Database downloader insert multiple
+                [insert] "<Provider>,<Anime Name>,<Season>,<Quality>,<Audio>,<Day>,<EP>" : "For Inserting Directly."
+                    example : AnimeDownloader/Database downloader
+                                    insert "[Golumpa],Tokyo Revengers,N/A,[CR-Dub 720p x264 AAC],(DUB),Saturday,01"
+                [delete] <row_number_to_delete> : "For Deleting a Row from the database."
+                    example : AnimeDownloader/Database downloader delete 7
+                [update] <row_number_to_update> <Column_Name_""> <newValue> : "For updating a row."
+                    example : AnimeDownloader/Database downloader update 7 "EP" 2
+                [show] : "For Showing Table."
+                    example : AnimeDownloader/Database downloader show
+                    
+        python3 [Path + /AnimeDownloader] [-h] : "For Help."
+        '''
+    )
+    exit(1)
+
 
 sec = 60
 today = date.today().strftime("%A")

@@ -47,7 +47,7 @@ class Downloader(Animedb):
             self.__downloader(url)
             self.fancyPrint("COPIED TO CLIPBOARD", 'digital')
             self.fancyPrint("UPDATED EPISODE IN DATABASE", 'straight')
-            self.update(n - 1, "EP", ep)
+            self.update(n, "EP", ep)
             return self.__delay
         except:
             self.fancyPrint("NOT YET AVAILABLE", 'short')

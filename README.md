@@ -222,5 +222,5 @@ Project Link: [https://github.com/PriyanshuG13/AnimeDownloader.git](https://gith
 * [lolcat](https://github.com/busyloop/lolcat.git)
 * [Requests](https://pypi.org/project/requests/)
 * [Beautiful Soup](https://pypi.org/project/beautifulsoup4/)
-* [pyFiglet](https://pypi.org/project/pyfiglet/0.7/)
+* [pyFiglet](https://pypi.org/project/pyfiglet/)
 

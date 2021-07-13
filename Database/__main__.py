@@ -11,10 +11,10 @@ if len(argv) > 1:
             dbm.insert(argv[3])
             dbm.commit()
     elif argv[2] == 'update':
-        dbm.update(argv[3], argv[4], argv[5])
+        dbm.update(int(argv[3])-1, argv[4], argv[5])
         dbm.commit()
     elif argv[2] == 'delete':
-        dbm.delete(argv[3])
+        dbm.delete(int(argv[3])-1)
         dbm.commit()
     elif argv[2] == 'show':
         dbm.show()
